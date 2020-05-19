@@ -1,0 +1,11 @@
+---
+permalink: /search/index1.json
+---
+[
+{%- for page in collections.pages -%}
+{
+"url": "{{ page.url }}",
+"content": "{{ page.templateContent | escape | safe }}"
+}
+{% if loop.last == false %},{% endif %}{% endfor -%} 
+]
