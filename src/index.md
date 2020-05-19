@@ -10,3 +10,5 @@ This is an index page.
 
 - [Index 1](search/index1.json)
 - [Index 2](search/index2.json)
+
+Test
